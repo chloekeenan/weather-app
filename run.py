@@ -1,12 +1,6 @@
 # Your code goes here.
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
- # import pyfiglet module
-# import pyfiglet module
-import pyfiglet
-
-result = pyfiglet.figlet_format("Weather Today", font = "bulbhead" )
-print(result)
 
 
 import requests
@@ -14,7 +8,7 @@ api_key = '5cd00a3248c03a1e995276d733942885'
 
 user_input = input("Choose City:")
 
-weather_data = requests.get (f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=metric&APPID={api_key}")
+weather_data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=metric&APPID={api_key}")
 
 if weather_data.json()['cod'] == '404':
     print("No City Found")
