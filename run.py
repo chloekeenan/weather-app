@@ -12,7 +12,7 @@ print(result)
 import requests
 api_key = '5cd00a3248c03a1e995276d733942885'
 
-user_input = input("Choose City":\n)
+user_input = input("Choose City")
 
 weather_data = requests.get (f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=metric&APPID={api_key}")
 
