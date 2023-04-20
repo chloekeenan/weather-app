@@ -3,9 +3,11 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 
+import pyfiglet
 import requests
 api_key = '5cd00a3248c03a1e995276d733942885'
-
+result = pyfiglet.figlet_format("Todays Weather", font="bulbhead")
+print(result)
 user_input = input("Choose City:")
 
 weather_data = requests.get(f"https://api.openweathermap.org/data/2.5/weather?q={user_input}&units=metric&APPID={api_key}")  # noqa
