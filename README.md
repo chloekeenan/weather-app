@@ -36,6 +36,14 @@ This application is aimed at users of all ages who simply just want to check the
  When running through the , CI Linter no issues were reported.
  ![Validator](images/CI%20Linter.png)
 
+ ## Bugs
+
+Bug | Status | Fix |
+----|--------|-----|
+CI Linter Error, line too long on API key| Resolved | Spent time with the student support team and they introduced me to noqa. 
+requests==2.28.1 needed to be added to requiremnts.txt | Resolved | Checked with fellow students on Slack. 
+
+
 # Known issues
 - I am aware that not all phones can access the deployed Heroku site. 
 
