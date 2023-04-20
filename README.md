@@ -32,6 +32,8 @@ This application is aimed at users of all ages who simply just want to check the
 
 - Comparison of Historical Data: OpenWeatherMap provides a premium option for up to 40 years of historical weather information. Future functionality that enables a user to compare weather data to past years is something I would want to implement. This would make it possible to assess the consequences of climate change or a crisis by contrasting real-time data with historical data.
 
+- Add styling to the application and add elements such as, cloud, sun, rain etc. 
+
 # Validation Testing
  When running through the , CI Linter no issues were reported.
  ![Validator](images/CI%20Linter.png)
