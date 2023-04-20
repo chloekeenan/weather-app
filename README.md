@@ -5,7 +5,7 @@
 ## Application Overview 
 
 * Deployed Site: [Here](https://chloes--weather-app.herokuapp.com/)
-Users of the straightforward app 'Weather Today' may check the temperature and current weather in the city of their choice.  
+Users of the straightforward app 'Todays Weather' may check the temperature and current weather in the city of their choice.  
  
 
 ## Goal
@@ -49,6 +49,8 @@ requests==2.28.1 needed to be added to requiremnts.txt | Resolved | Checked with
 # Known issues
 - I am aware that not all phones can access the deployed Heroku site. 
 
+- pip install pyfiglet needs to be added to termnial if ' No module named 'pyfiglet' shows'. 
+
 
 # Deployment 
 ## Deployment to Heroku
@@ -73,7 +75,7 @@ requests==2.28.1 needed to be added to requiremnts.txt | Resolved | Checked with
 
 # Credits 
  
-- Code for the game was inspired by: How to Build a Weather App with Python | Weather API (https://www.youtube.com/watch?v=baWzHKfrvqw&t=453s)
+- Code for the game was inspired by: How to Build a Weather App with Python | Weather API (https://www.youtube.com/watch?v=baWzHKfrvqw&t=453s) Arpan Neupane
 
 - IPython | ASCII art using pyfiglet module was used (https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)
 
