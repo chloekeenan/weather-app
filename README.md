@@ -47,6 +47,28 @@ requests==2.28.1 needed to be added to requiremnts.txt | Resolved | Checked with
 # Known issues
 - I am aware that not all phones can access the deployed Heroku site. 
 
+
+# Deployment 
+## Deployment to Heroku
+1. Go to [Heroku](https://dashboard.heroku.com/apps)
+2. Go to 'New' and select 'Create a new app'
+3. Input your app name and create app.
+4. Navigate to 'Settings'
+5. Install the needed buildpacks. Select Python and install and then node.js and install and then click save. They must be in this order.
+6. Navigate to the 'Deploy' section. 
+7. Connect to GitHub, search for your repo and confirm. 
+8. Choose branch to deploy.
+9. Your app should now be available to see. You can choose whether to have your app automatically redeploy with every push or to keep it manual. 
+
+## How to Fork
+1. Login/signup to [GitHub](https://github.com/).
+2. Locate the relevant repository. 
+3. Click on the 'Fork' button in the upper left.
+4. Your forked version of this repo will be generated!
+
+### Version Control
+*  Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository where the source code is stored.
+
 # Frameworks and Libraries
  
 - Code for the game was inspired by: How to Build a Weather App with Python | Weather API (https://www.youtube.com/watch?v=baWzHKfrvqw&t=453s)
