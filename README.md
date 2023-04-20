@@ -69,6 +69,17 @@ requests==2.28.1 needed to be added to requiremnts.txt | Resolved | Checked with
 ### Version Control
 *  Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository where the source code is stored.
 
-# Frameworks and Libraries
+# Credits 
  
 - Code for the game was inspired by: How to Build a Weather App with Python | Weather API (https://www.youtube.com/watch?v=baWzHKfrvqw&t=453s)
+
+- IPython | ASCII art using pyfiglet module was used (https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)
+
+- The souce of my API was (https://openweathermap.org/)
+
+- Slack for help off of my fellow classmates.
+
+- The Code Institute for the help of their tutors who helped me shorten a line using noqa. 
+
+- Learning about NO Quality Assurance (noqa) in Python (https://www.geeksforgeeks.org/no-quality-assurance-noqa-in-python/)
+
