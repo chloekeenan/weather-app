@@ -2,13 +2,14 @@
 
 
 
-## Reminders
+## Application Overview 
 
-* Your code must be placed in the `run.py` file
+* Deployed Site: [Here](https://chloes--weather-app.herokuapp.com/)
+Users of the straightforward app 'Weather Today' may check the temperature and current weather in the city of their choice.  
+ 
 
-
-## Creating the Heroku app
-
+## Goal
+I wanted to make an app that is both practical and simple to use. The user may simply observe the current weather and temperature.
 
 ## Constraints
 
