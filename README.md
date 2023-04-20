@@ -36,4 +36,9 @@ This application is aimed at users of all ages who simply just want to check the
  When running through the , CI Linter no issues were reported.
  ![Validator](images/CI%20Linter.png)
 
+# Known issues
+- I am aware that not all phones can access the deployed Heroku site. 
+
+# Frameworks and Libraries
  
+- Code for the game was inspired by: How to Build a Weather App with Python | Weather API (https://www.youtube.com/watch?v=baWzHKfrvqw&t=453s)
